@@ -8,6 +8,9 @@ $$ b_{t+1}= \frac{1+i}{1+g+\pi}b_{t}+d_{t}$$
 
 where $b$ is the debt to GDP ratio, $i$ is the *nominal* interest rate, $g$ is the nominal growth rate, and $d$ is the primary deficit.
 
-## Data
+## Code
 
+## Figures
+
+## Software
 
