@@ -6,15 +6,25 @@ The paper simulates trajectories if India's debt to GDP ratio for the period 202
 
 $$ b_{t+1}= \frac{1+i}{1+g+\pi}b_{t}+d_{t}$$
 
-where $b$ is the debt to GDP ratio, $i$ is the *nominal* interest rate, $g$ is the nominal growth rate, and $d$ is the primary deficit.
+where $b$ is the debt to GDP ratio, $i$ is the *nominal* interest rate, $g$ is the *nominal* growth rate, and $d$ is the primary deficit.
 
-## Code
+## Repo Structure
 
-The script used to simulate the four scenarios is stored in the folder `code`. 
+- `01_data`: Data needed to produce Figures 1 & 2
+- `02_code`: Code to run projections and generate Figures 1 & 2
+- `03_ figures`: Figures 1 and 2
 
-## Figures
+## Replication
 
-These are stored in the folder `figures`.
+Ensure you have the following packages installed in Python: `pandas`, `plotly`, `kaleido`, `pyprojroot`, `matplotlib`, `numpy`. Now follow the steps below
+
+1. Open the folder `debt-projections` after you download the repo in your text editor (say, VSCode).
+
+2. Open and run `02_code/projections.py`. This should create Figures 1 and 2 in the folder `03_figures`.
+
+## Software
+
+Projections were run using Python 3.11 and csvs were stored in Microsoft Excel 16.
 
 ## Software
 
